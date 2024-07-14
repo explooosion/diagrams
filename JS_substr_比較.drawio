@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-14T13:30:48.679Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="CqB56YWvMwGt_3z0YNQi" version="24.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-14T13:36:32.821Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="_ta2A0HvXGWUXwHXsSgB" version="24.6.5" type="github">
   <diagram name="第 1 页" id="wg9w4PzNafmkmtGwNENZ">
     <mxGraphModel dx="2636" dy="2099" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -126,8 +126,8 @@
         <mxCell id="AZ1vZ3ruoQsWkpssV_kE-92" value="slice 不同" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="2150" y="419.5" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="AZ1vZ3ruoQsWkpssV_kE-96" value="&lt;ul style=&quot;font-size: 18px;&quot;&gt;&lt;li&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;str.substr(x, y)&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;str.substring(x, y)&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;str.slice(x, y)&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-199" y="-122" width="195" height="72" as="geometry" />
+        <mxCell id="AZ1vZ3ruoQsWkpssV_kE-96" value="&lt;ul style=&quot;font-size: 18px;&quot;&gt;&lt;li&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;str.substr(x, y)&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 有一種特例&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;str.substring(x, y)&amp;nbsp; &amp;nbsp;有兩種&lt;/font&gt;特例&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;str.slice(x, y)&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 有三種&lt;/font&gt;特例&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-270" y="-130" width="369" height="72" as="geometry" />
         </mxCell>
         <mxCell id="AZ1vZ3ruoQsWkpssV_kE-107" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="AZ1vZ3ruoQsWkpssV_kE-104" target="AZ1vZ3ruoQsWkpssV_kE-106" edge="1">
           <mxGeometry relative="1" as="geometry" />
