@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-14T13:43:16.792Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="9suqE1Ip7WDVrGsZDVuE" version="24.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-15T12:14:57.815Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="uSB_omRPAI8JA0YfcsJk" version="24.6.5" type="github">
   <diagram name="第 1 页" id="wg9w4PzNafmkmtGwNENZ">
-    <mxGraphModel dx="2636" dy="2099" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2293" dy="2099" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -11,7 +11,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AZ1vZ3ruoQsWkpssV_kE-11" value="只有 x 參數" style="rhombus;whiteSpace=wrap;html=1;rounded=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
-          <mxGeometry x="-182" y="-37" width="138" height="111" as="geometry" />
+          <mxGeometry x="-170" y="-35" width="138" height="111" as="geometry" />
         </mxCell>
         <mxCell id="AZ1vZ3ruoQsWkpssV_kE-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="AZ1vZ3ruoQsWkpssV_kE-20" target="AZ1vZ3ruoQsWkpssV_kE-35" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -34,17 +34,14 @@
         <mxCell id="AZ1vZ3ruoQsWkpssV_kE-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="AZ1vZ3ruoQsWkpssV_kE-39" target="AZ1vZ3ruoQsWkpssV_kE-42" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="AZ1vZ3ruoQsWkpssV_kE-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="AZ1vZ3ruoQsWkpssV_kE-39" target="AZ1vZ3ruoQsWkpssV_kE-44" edge="1">
+        <mxCell id="-TwlmGacKKWk3p0SpTIF-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AZ1vZ3ruoQsWkpssV_kE-39" target="-TwlmGacKKWk3p0SpTIF-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="AZ1vZ3ruoQsWkpssV_kE-39" value="&lt;div&gt;x &amp;gt;= 0&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
-          <mxGeometry x="-182" y="104.5" width="138" height="111" as="geometry" />
+        <mxCell id="AZ1vZ3ruoQsWkpssV_kE-39" value="&lt;span style=&quot;color: rgb(51, 51, 51);&quot;&gt;0 &amp;gt; x &amp;gt; str.length * -1&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;strokeColor=#666666;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#333333;fillColor=#f5f5f5;" parent="1" vertex="1">
+          <mxGeometry x="-170" y="106.5" width="138" height="111" as="geometry" />
         </mxCell>
-        <mxCell id="AZ1vZ3ruoQsWkpssV_kE-42" value="全相同" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="-173" y="267.5" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="AZ1vZ3ruoQsWkpssV_kE-44" value="substring 不同" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="-7" y="267.5" width="120" height="60" as="geometry" />
+        <mxCell id="AZ1vZ3ruoQsWkpssV_kE-42" value="substring 不同" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="-161" y="269.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="AZ1vZ3ruoQsWkpssV_kE-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="AZ1vZ3ruoQsWkpssV_kE-48" target="AZ1vZ3ruoQsWkpssV_kE-52" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -170,6 +167,9 @@
         </mxCell>
         <mxCell id="-TwlmGacKKWk3p0SpTIF-4" value="&lt;div style=&quot;font-size: 20px;&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;&quot;&gt;五種情境皆相同&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;&quot;&gt;三種情境皆不同&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;&quot;&gt;有一種特例：substr&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;&quot;&gt;有兩種特例：substring&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;&quot;&gt;有三種特例：slice&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="52" y="-175" width="264" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="-TwlmGacKKWk3p0SpTIF-7" value="全相同" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="19" y="267.5" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
