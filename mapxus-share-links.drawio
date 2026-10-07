@@ -1,0 +1,131 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="第 1 页" id="fI2_pJH3ClwnJOEE4oz-">
+    <mxGraphModel dx="2076" dy="1180" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="KVvxRue92FZGP0O36HZQ-2" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="啟德 APP" vertex="1">
+          <mxGeometry height="660" width="940" x="230" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="KVvxRue92FZGP0O36HZQ-6" parent="KVvxRue92FZGP0O36HZQ-2" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Router: 導航頁 - (Webview)" vertex="1">
+          <mxGeometry height="570" width="850" x="50" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="KVvxRue92FZGP0O36HZQ-19" parent="KVvxRue92FZGP0O36HZQ-6" style="swimlane;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;Private Web APP&lt;/span&gt;" vertex="1">
+          <mxGeometry height="370" width="200" x="20" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KVvxRue92FZGP0O36HZQ-7" parent="KVvxRue92FZGP0O36HZQ-19" style="rounded=0;whiteSpace=wrap;html=1;" value="Enter Venue Page" vertex="1">
+          <mxGeometry height="60" width="120" x="30" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KVvxRue92FZGP0O36HZQ-12" parent="KVvxRue92FZGP0O36HZQ-19" style="rounded=0;whiteSpace=wrap;html=1;" value="Share Venue" vertex="1">
+          <mxGeometry height="60" width="120" x="30" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="KVvxRue92FZGP0O36HZQ-17" edge="1" parent="KVvxRue92FZGP0O36HZQ-19" source="KVvxRue92FZGP0O36HZQ-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="KVvxRue92FZGP0O36HZQ-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KVvxRue92FZGP0O36HZQ-10" parent="KVvxRue92FZGP0O36HZQ-19" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="Trigger&lt;br&gt;&lt;div&gt;shareVenueClick&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="30" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="KVvxRue92FZGP0O36HZQ-18" edge="1" parent="KVvxRue92FZGP0O36HZQ-19" source="KVvxRue92FZGP0O36HZQ-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="KVvxRue92FZGP0O36HZQ-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KVvxRue92FZGP0O36HZQ-13" parent="KVvxRue92FZGP0O36HZQ-6" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#f8cecc;strokeColor=#b85450;" value="&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Subscribe&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;shareVenueClick&amp;nbsp;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;callback&lt;/span&gt;" vertex="1">
+          <mxGeometry height="115" width="140" x="260" y="47.5" as="geometry" />
+        </mxCell>
+        <mxCell id="KVvxRue92FZGP0O36HZQ-14" edge="1" parent="KVvxRue92FZGP0O36HZQ-6" source="KVvxRue92FZGP0O36HZQ-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="KVvxRue92FZGP0O36HZQ-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="110.06" y="390.06" />
+              <mxPoint x="190.06" y="390.06" />
+              <mxPoint x="190.06" y="105" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KVvxRue92FZGP0O36HZQ-15" parent="KVvxRue92FZGP0O36HZQ-6" style="whiteSpace=wrap;html=1;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="拿到參數&lt;div&gt;&lt;div&gt;venueId: string&lt;/div&gt;&lt;div&gt;venueName: string&lt;/div&gt;&lt;div&gt;address: string&lt;/div&gt;&lt;div&gt;bounds: IBbox&lt;/div&gt;&lt;div&gt;buildings: TNativeBuilding[]&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="180" x="460" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KVvxRue92FZGP0O36HZQ-16" edge="1" parent="KVvxRue92FZGP0O36HZQ-6" source="KVvxRue92FZGP0O36HZQ-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="KVvxRue92FZGP0O36HZQ-15" value="是">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KVvxRue92FZGP0O36HZQ-24" edge="1" parent="KVvxRue92FZGP0O36HZQ-6" source="KVvxRue92FZGP0O36HZQ-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="KVvxRue92FZGP0O36HZQ-23" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KVvxRue92FZGP0O36HZQ-20" parent="KVvxRue92FZGP0O36HZQ-6" style="whiteSpace=wrap;html=1;align=left;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;組合 Share Link&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;// 1. 定義變數: 客戶 iOS/Android Developer 自行定義&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;domain =&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;https://www.kaitaksportspark.com.hk/wayfinding/venue/&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;// 2. URL 組合&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(51, 51, 51), rgb(193, 193, 193));&quot;&gt;finalUrl&lt;/span&gt;&amp;nbsp;= domain + venueId&amp;nbsp;&lt;br&gt;&lt;br&gt;// 3. 最終結果&lt;br&gt;&lt;div style=&quot;&quot;&gt;https://www.kaitaksportspark.com.hk/wayfinding/venue/bad67832f11d48078384adfbf9c75d49&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="166" width="520" x="290" y="188" as="geometry" />
+        </mxCell>
+        <mxCell id="KVvxRue92FZGP0O36HZQ-21" edge="1" parent="KVvxRue92FZGP0O36HZQ-6" source="KVvxRue92FZGP0O36HZQ-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="KVvxRue92FZGP0O36HZQ-20" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KVvxRue92FZGP0O36HZQ-23" parent="KVvxRue92FZGP0O36HZQ-6" style="whiteSpace=wrap;html=1;align=left;fillColor=#fff2cc;strokeColor=#d6b656;" value="由 Webview 殼調用手機分享&lt;br&gt;&lt;br&gt;// Android 例子&lt;br&gt;```&lt;br&gt;&lt;div&gt;&lt;div&gt;val intent = Intent(Intent.ACTION_SEND).apply {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; type = &quot;text/plain&quot;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; putExtra(Intent.EXTRA_TEXT, finalUrl)&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;&lt;br&gt;context.startActivity(Intent.createChooser(intent, &quot;Share&quot;))&lt;br&gt;```&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="176" width="520" x="290" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="KVvxRue92FZGP0O36HZQ-47" edge="1" parent="1" source="KVvxRue92FZGP0O36HZQ-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="KVvxRue92FZGP0O36HZQ-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KVvxRue92FZGP0O36HZQ-26" parent="1" style="whiteSpace=wrap;html=1;align=left;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="用戶手機顯示分享連結&lt;br&gt;&lt;br&gt;https://www.kaitaksportspark.com.hk/wayfinding/venue/bad67832f11d48078384adfbf9c75d49" vertex="1">
+          <mxGeometry height="60" width="520" x="570" y="970" as="geometry" />
+        </mxCell>
+        <mxCell id="KVvxRue92FZGP0O36HZQ-27" edge="1" parent="1" source="KVvxRue92FZGP0O36HZQ-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="KVvxRue92FZGP0O36HZQ-26" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KVvxRue92FZGP0O36HZQ-34" edge="1" parent="1" source="KVvxRue92FZGP0O36HZQ-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="KVvxRue92FZGP0O36HZQ-33" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KVvxRue92FZGP0O36HZQ-35" connectable="0" parent="KVvxRue92FZGP0O36HZQ-34" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="是" vertex="1">
+          <mxGeometry relative="1" x="-0.3432" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KVvxRue92FZGP0O36HZQ-40" edge="1" parent="1" source="KVvxRue92FZGP0O36HZQ-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="KVvxRue92FZGP0O36HZQ-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KVvxRue92FZGP0O36HZQ-41" connectable="0" parent="KVvxRue92FZGP0O36HZQ-40" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="否" vertex="1">
+          <mxGeometry relative="1" x="0.3712" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KVvxRue92FZGP0O36HZQ-31" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#f8cecc;strokeColor=#b85450;" value="是否已安裝 APP ?&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="130" x="1325" y="960" as="geometry" />
+        </mxCell>
+        <mxCell id="KVvxRue92FZGP0O36HZQ-42" edge="1" parent="1" source="KVvxRue92FZGP0O36HZQ-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="KVvxRue92FZGP0O36HZQ-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1395.02" y="230" />
+              <mxPoint x="700" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KVvxRue92FZGP0O36HZQ-33" parent="1" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="喚醒啟德 APP" vertex="1">
+          <mxGeometry height="60" width="120" x="1330" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="KVvxRue92FZGP0O36HZQ-49" edge="1" parent="1" source="KVvxRue92FZGP0O36HZQ-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="KVvxRue92FZGP0O36HZQ-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1550" y="780" />
+              <mxPoint x="1650" y="780" />
+              <mxPoint x="1650" y="1060.09" />
+              <mxPoint x="1390" y="1060.09" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KVvxRue92FZGP0O36HZQ-36" parent="1" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="跳轉至 APP Store" vertex="1">
+          <mxGeometry height="60" width="120" x="1490" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="KVvxRue92FZGP0O36HZQ-38" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;color: rgb(51, 51, 51); text-align: left;&quot;&gt;&lt;b&gt;【Universal Link（iOS）/ App Link（Android）】&lt;/b&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="360" x="1240" y="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="KVvxRue92FZGP0O36HZQ-48" edge="1" parent="1" source="KVvxRue92FZGP0O36HZQ-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="KVvxRue92FZGP0O36HZQ-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KVvxRue92FZGP0O36HZQ-43" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="&lt;span style=&quot;background-color: transparent; color: rgb(51, 51, 51); white-space: normal;&quot;&gt;用戶查看網址&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="30" x="1210" y="970" as="geometry" />
+        </mxCell>
+        <mxCell id="KVvxRue92FZGP0O36HZQ-54" edge="1" parent="1" source="KVvxRue92FZGP0O36HZQ-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="KVvxRue92FZGP0O36HZQ-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KVvxRue92FZGP0O36HZQ-50" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Actor" vertex="1">
+          <mxGeometry height="60" width="30" x="100" y="450" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
